@@ -1,0 +1,11 @@
+//add a image
+@mixin add-image($width, $height, $image) {
+    display: inline-block;
+    position: relative;
+    content: "";
+    width: $width;
+    height: $height;
+    background: url($image);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
