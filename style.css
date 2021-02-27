@@ -28,8 +28,21 @@ header {
 .intro h2 {
     font-size: 1em;
 }
- 
-div .summary , .preamble , .mainsupporting {
-border-style: groove;
+
+
+.intro div , footer {
+    border-style: groove;
+    margin: 10px 0;
+    padding: 10px;
 }
 
+.explanation , .participation , .benefits , .requirements {
+    border-style: groove; 
+    margin: 10px 0;
+    padding: 10px;
+    
+}
+
+footer {
+    text-align: center;
+}
